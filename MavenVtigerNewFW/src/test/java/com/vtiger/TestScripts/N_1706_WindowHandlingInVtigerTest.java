@@ -34,5 +34,6 @@ public void createOrgWithWindowHandling() throws EncryptedDocumentException, IOE
 	String actOrgMsg=oip.getSuccessMsg().getText();
 	Assert.assertTrue(actOrgMsg.contains(data.getDataFromExcel("organisationData", 2, 2)));
 	Reporter.log("window handle in organisation and created successfully",true);
+	Reporter.log("newly add code",true);
 }
 }
