@@ -36,5 +36,6 @@ public void createOrgWithWindowHandling() throws EncryptedDocumentException, IOE
 	Reporter.log("window handle in organisation and created successfully",true);
 	Reporter.log("newly add code",true);
 	System.out.println("2nd time added");
+	System.out.println("3time added");
 }
 }
